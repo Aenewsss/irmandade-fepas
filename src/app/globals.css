@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Onyx';
+  src: url('/fonts/onyx.otf');
+}
+
+:root {
+  --main-color: #C0A067;
+  --main-color-o5: #c09f6778;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.ff-onyx {
+  font-family: 'Onyx' !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--white);
+  background-color: black !important;
+  color: white !important;
+}
+
+img {
+  position: unset !important;
+  height: unset !important;
+  top: unset !important;
+  bottom: unset !important;
+  left: unset !important;
+  right: unset !important;
+}
+a {
+  text-decoration: none !important;
+}
+.whats-fixed {
+  bottom: 20px;
+  right: 20px;
+  width: clamp(50px, 4vw, 100px);
+  animation: whatsFloating 4s linear infinite;
+}
+
+.home-top {
+  background: center / cover no-repeat url('/images/imagem-topo.png');
+  height: 100vh;
+}
+
+.logo-top {
+  width: 400px !important;
+}
+
+.display-1 {
+  font-size: calc(2rem + 5vw) !important;
+}
+
+.scale {
+  transition: .5s ease !important;
+}
+
+.scale:hover {
+  transform: scale(1.1) !important;
+}
+
+.text-main{
+  color: var(--main-color) !important;
+}
+
+.btn-main {
+  background-color: var(--main-color) !important;
+}
+
+.text-premium {
+  color: #FFC96A !important;
+}
+
+.bg-main{
+  background-color: var(--main-color);
+}
+
+@keyframes whatsFloating {
+  0% {
+    scale: 1;
+    transform: translateY(0);
+  }
+
+  50% {
+    scale: 1.1;
+    transform: translateY(-5px);
+    filter: drop-shadow(0 0 4px rgb(13, 248, 33));
+  }
+
+  100% {
+    scale: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-1 {
+    font-size: 8rem !important;
+  }
+}
