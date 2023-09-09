@@ -6,7 +6,7 @@ const About = () => {
             <div className="bg-main">
                 <div className="row">
                     <div className="col-md-7 p-4">
-                        <h2 className="ff-onyx display-2 text-white fw-light text-left fst-italic">Quem somos?</h2>
+                        <h2 className="ff-onyx display-2 text-white fw-light text-left ">Quem somos?</h2>
                         <p className="d-flex flex-column gap-3 fw-light p-2">
                             <span>
                                 A Irmandade Fépas é uma barbearia contemporânea fundada por dois irmãos, Ramon Fépas e

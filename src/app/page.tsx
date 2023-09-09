@@ -3,7 +3,7 @@ import Differentials from "@components/components/Differentials";
 import Footer from "@components/components/Footer";
 import HomeTop from "@components/components/HomeTop";
 import Navbar from "@components/components/Navbar";
-import Products from "@components/components/Products";
+import Services from "@components/components/Services";
 import WhatsAppFixed from "@components/components/WhatsappFixed";
 
 
@@ -13,7 +13,7 @@ export default function Home() {
       <Navbar />
       <HomeTop />
       <About />
-      <Products />
+      <Services />
       <Differentials />
       <Footer />
       <WhatsAppFixed />

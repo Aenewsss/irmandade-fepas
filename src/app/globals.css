@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Onyx';
-  src: url('/fonts/onyx.otf');
+  src: url('/fonts/onyx.TTF');
 }
 
 :root {
@@ -51,9 +51,11 @@ img {
   left: unset !important;
   right: unset !important;
 }
+
 a {
   text-decoration: none !important;
 }
+
 .whats-fixed {
   bottom: 20px;
   right: 20px;
@@ -82,7 +84,7 @@ a {
   transform: scale(1.1) !important;
 }
 
-.text-main{
+.text-main {
   color: var(--main-color) !important;
 }
 
@@ -94,8 +96,27 @@ a {
   color: #FFC96A !important;
 }
 
-.bg-main{
+.bg-main {
   background-color: var(--main-color);
+}
+
+.btn-main-outline {
+  background-color: unset;
+  border: 1px solid var(--main-color) !important;
+}
+
+.ls-services {
+  letter-spacing: 12px;
+}
+
+.w-40{ width: 40% !important;}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-20 {
+  width: 20% !important;
 }
 
 @keyframes whatsFloating {
