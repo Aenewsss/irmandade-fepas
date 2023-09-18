@@ -33,9 +33,10 @@ const About = () => {
 
                             <span>
                                 Um forte abraço,
-                                <p className="fst-italic">
+                                <span className="fst-italic">
+                                    <br />
                                     IRMANDADE
-                                </p>
+                                </span>
                             </span>
                         </p>
                     </div>
