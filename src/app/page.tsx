@@ -1,4 +1,5 @@
 import About from "@components/components/About";
+import Contact from "@components/components/Contact";
 import Differentials from "@components/components/Differentials";
 import Footer from "@components/components/Footer";
 import HomeTop from "@components/components/HomeTop";
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Services />
       <Differentials />
+      <Contact />
       <Footer />
       <WhatsAppFixed />
     </main>

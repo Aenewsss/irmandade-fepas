@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <section className="container">
+        <section className="container" id="about">
             <div className="bg-main">
                 <div className="row">
                     <div className="col-md-7 p-4">

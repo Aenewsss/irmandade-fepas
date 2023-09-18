@@ -56,6 +56,10 @@ a {
   text-decoration: none !important;
 }
 
+.border-main {
+  border: 1px solid var(--main-color) !important;
+}
+
 .whats-fixed {
   bottom: 20px;
   right: 20px;
@@ -125,7 +129,7 @@ a {
   position: relative;
 }
 
-.card-differentials::after{
+.card-differentials::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -135,7 +139,7 @@ a {
   transform: translateY(-50%);
 }
 
-.card-differentials::before{
+.card-differentials::before {
   content: '';
   position: absolute;
   width: 2px;
