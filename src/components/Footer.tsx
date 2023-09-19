@@ -1,3 +1,4 @@
+import { environments } from "@components/environments";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,8 +11,8 @@ const Footer = () => {
                         <Image loading="lazy" width={140} height={42} src="/favicon.png" alt="transparente.svg" />
                     </div>
                     <div className="col-md-4 d-flex flex-column align-items-center justify-content-center">
-                        <h6 className="text-main fw-bold mb-0 d-md-flex d-none">A DESCART</h6>
-                        <Link target="_blank" href="https://www.google.com/maps/place/AdescartDF/@-15.8442562,-48.0489506,17z/data=!3m1!4b1!4m6!3m5!1s0x935a3332649dbb4b:0x1cbbf4eedea6c382!8m2!3d-15.8442563!4d-48.0440797!16s%2Fg%2F11l1xf_p72?hl=en&entry=ttu" className="d-flex align-items-center gap-2 mt-3">
+                        <h6 className="text-main fw-bold mb-0 d-md-flex d-none">IRMANDADE FÉPAS</h6>
+                        <Link target="_blank" href={environments.mapsLink} className="d-flex align-items-center gap-2 mt-3">
                             <Image loading="lazy" width={20} height={20} src="/icons/house.svg" alt="transparente.svg" />
                             <div className="text-white">
                                 <p className="mb-0 fs-10">
@@ -27,11 +28,11 @@ const Footer = () => {
                         <div className="text-white ">
                             <h6 className="text-main fw-bold mb-0">REDES SOCIAIS</h6>
                             <div className="d-flex flex-column gap-2 mt-3">
-                                <Link target="_blank" href="https://api.whatsapp.com/send?phone=5561991855178&text=Olá, estou entrando em contato pelo site e gostaria de saber mais sobre a Irmandade Fépas Barbearia!" className="d-flex gap-2 fs-10 text-white mb-0">
+                                <Link target="_blank" href={environments.whatsAppLink} className="d-flex gap-2 fs-10 text-white mb-0">
                                     <Image loading="lazy" width={20} height={20} src="/icons/whatsapp.svg" alt="transparente.svg" />
                                     <span>(61) 99185-5178</span>
                                 </Link>
-                                <Link target="_blank" href="https://www.instagram.com/irmandadefepas/" className="d-flex gap-2 fs-10 text-white mb-0">
+                                <Link target="_blank" href={environments.instagramLink} className="d-flex gap-2 fs-10 text-white mb-0">
                                     <Image loading="lazy" width={20} height={20} src="/icons/instagram.svg" alt="transparente.svg" />
                                     <span>irmandadefepas</span>
                                 </Link>

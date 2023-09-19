@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import ScheduleButton from "./Buttons/Schedule";
+import { environments } from "@components/environments";
 
 const Navbar = () => {
 
@@ -39,7 +40,7 @@ const Navbar = () => {
                             <Link role="button" className="nav-link scale text-uppercase text-white" href="#services">Serviços</Link>
                         </li>
                         <li className="nav-item">
-                            <Link role="button" className="text-premium fw-bold nav-link scale text-uppercase " href="">O Clube</Link>
+                            <Link role="button" className="text-premium fw-bold nav-link scale text-uppercase" target="_blank" href={environments.clubLink}>O Clube</Link>
                         </li>
                         <li className="nav-item">
                             <Link role="button" className="nav-link scale text-uppercase text-white" href="#differentials">Vantagens</Link>
