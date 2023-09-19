@@ -13,8 +13,8 @@ const HomeTop = () => {
                             Uma irmandade
                         </h1>
                     </div>
-                    <div className="col-md-4 d-flex justify-content-end align-items-center">
-                        <Image className="img-fluid" fill src="/favicon.png" alt="Logo Irmandade Fépas"/>
+                    <div className="col-md-4 d-md-flex justify-content-end align-items-center d-none">
+                        <Image className="img-fluid " fill src="/favicon.png" alt="Logo Irmandade Fépas"/>
                     </div>
 
                 </div>

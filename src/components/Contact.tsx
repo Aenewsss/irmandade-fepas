@@ -15,7 +15,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <h2 className="ff-onyx section-heading display-2 ls-services w-100 mt-0 mb-5 pt-0 container">Contato & horários</h2>
+                        <h2 className="ff-onyx section-heading display-2 ls-services w-100 mt-md-0 mt-3 mb-5 pt-0 container">Contato & horários</h2>
 
                         <h5 className="fw-light mt-5 line-after">Terça a Qui: 9h às 19:30  Sex: 9h às 20h Sáb: 9h às 18h</h5>
 
@@ -32,7 +32,7 @@ const Contact = () => {
                             </Link>
                         </h5>
 
-                        <div className="mt-5 w-50">
+                        <div className="mt-5 w-50 mb-md-0 mb-3">
                             <ScheduleButton />
                         </div>
 

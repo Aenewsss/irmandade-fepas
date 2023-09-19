@@ -82,8 +82,26 @@ a {
   animation: whatsFloating 4s linear infinite;
 }
 
-.bg-shadow{
+.bg-shadow {
   box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+.hover-service h3,
+img {
+  transition: .5s ease;
+}
+
+.hover-service:hover h3 {
+  opacity: 1 !important;
+  margin-bottom: 2em;
+}
+
+.hover-service:hover img {
+  opacity: 0.8;
+}
+
+.hover-service:not(:hover) img {
+  opacity: 0.5;
 }
 
 .home-top {
@@ -189,5 +207,17 @@ a {
 @media (min-width: 1200px) {
   .display-1 {
     font-size: 8rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 992px){
+  .w-sm-100{
+    width: 100% !important;
   }
 }
